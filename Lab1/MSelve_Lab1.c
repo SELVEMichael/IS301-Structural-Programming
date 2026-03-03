@@ -66,9 +66,9 @@ total = subtotal + tax;
 printf("\nQTY\tDESCRIPTION\tUNIT PRICE\tTOTAL PRICE\n");
 printf("%d\tTV\t\t%.2f\t\t%.2f\n", qtyTV, TV_PRICE, totalTV);
 printf("%d\tMonitor\t\t%.2f\t\t%.2f\n", qtyMonitor, MONITOR_PRICE, totalMonitor);
-intf("%d\tFlash Drive\t%.2f\t\t%.2f\n", qtyFlash, FLASHDRIVE_PRICE, totalFlash);
-intf("%d\tHard Drive\t%.2f\t\t%.2f\n", qtyHard, HARDDRIVE_PRICE, totalHard);
-intf("%d\tDeskjet Printer\t%.2f\t\t%.2f\n", qtyPrinter, PRINTER_PRICE, totalPrinter);
+printf("%d\tFlash Drive\t%.2f\t\t%.2f\n", qtyFlash, FLASHDRIVE_PRICE, totalFlash);
+printf("%d\tHard Drive\t%.2f\t\t%.2f\n", qtyHard, HARDDRIVE_PRICE, totalHard);
+printf("%d\tDeskjet Printer\t%.2f\t\t%.2f\n", qtyPrinter, PRINTER_PRICE, totalPrinter);
 
 printf("\nSubtotal:\t%.2f\n", subtotal);
 printf("Tax:\t\t%.2f\n", tax);
